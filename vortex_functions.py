@@ -1,4 +1,6 @@
 import numpy as np
+from scipy.ndimage import gaussian_filter
+import pyvista as pv
 
 def read_solution(fname):
     with open(fname, 'rb') as fid:
