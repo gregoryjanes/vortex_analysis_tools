@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=41.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vortex_analysis_tools"
+version = "0.1.0"
+authors = [
+	{ name="J. Gregory Janes", email="janesjg@vt.edu"},
+]
+description = "A collection of tools for the analysis of vortex pairs via ILES simulations. The simulation software whose data was used to build the tools generated .q solution files and .x grid files."
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+	"numpy",
+	"scipy",
+	"matplotlib",
+	"pyvista",
+]
+
+
+
+
